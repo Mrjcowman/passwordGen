@@ -58,9 +58,7 @@ let generatePassword = () => {
     }
   }
 
-  alert("Your Password is: "+password);
-  
-  
+  return password;
 }
 
 let generateRandomLower = () => {
