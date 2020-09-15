@@ -78,11 +78,6 @@ let generateRandomNumber = () => {
 }
 
 let generateRandomSpecial = () => {
-  // let specialCharacters = ["&#x21;","&#x22;","&#x23;","&#x24;","&#x25;","&#x26;","&#x27;","&#x28;",
-  //                          "&#x29;","&#x2A;","&#x2B;","&#x2C;","&#x2D;","&#x2E;","&#x2F;","&#x3A;",
-  //                          "&#x3B;","&#x3C;","&#x3D;","&#x3E;","&#x3F;","&#x40;","&#x5B;","&#x5C;",
-  //                          "&#x5D;","&#x5E;","&#x5F;","&#x60;","&#x7B;","&#x7C;","&#x7D;","&#x7E;"];
-  
   let specialCharacters = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
   return specialCharacters[Math.floor(Math.random()*specialCharacters.length)];
 }
